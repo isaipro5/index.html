@@ -3,21 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lumina Óptica - Optica en San Isidro con los mejores lentes, exámenes visuales y atención personalizada.">
     <title>Lumina Óptica | San Isidro</title>
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
         
-        body { 
-            font-family: 'Inter', system_ui, sans-serif; 
-        }
-        .heading-font { 
-            font-family: 'Playfair Display', sans-serif; 
-        }
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .heading-font { font-family: 'Playfair Display', sans-serif; }
 
         .hero-bg {
             background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)), 
@@ -30,17 +23,13 @@
         }
         .product-card:hover {
             transform: translateY(-12px);
-            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 10px 10px -5px rgb(0 0 0 / 0.1);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1);
         }
         .product-img {
             transition: transform 0.5s ease;
         }
         .product-card:hover .product-img {
             transform: scale(1.08);
-        }
-
-        html {
-            scroll-behavior: smooth;
         }
     </style>
 </head>
@@ -53,10 +42,8 @@
                 <span class="heading-font text-3xl font-bold tracking-tight text-zinc-900">LUMINA</span>
                 <span class="block text-sky-400 text-sm -mt-1 tracking-[3px]">ÓPTICA</span>
             </div>
-            <a href="tel:+51974736558" 
-               class="bg-sky-400 text-white px-6 py-3 rounded-2xl font-semibold flex items-center gap-2 hover:bg-sky-500 transition">
-                <i class="fa-solid fa-phone"></i> 
-                +51 974 736 558
+            <a href="tel:+51944246946" class="bg-sky-400 text-white px-6 py-3 rounded-2xl font-semibold flex items-center gap-2 hover:bg-sky-500 transition">
+                <i class="fa-solid fa-phone"></i> +51 974 736 558
             </a>
         </div>
     </nav>
@@ -121,7 +108,7 @@
             <h2 class="heading-font text-6xl font-bold mb-6">¿Listo para cuidar tu visión?</h2>
             <p class="text-xl mb-12">Contáctanos y descubre la diferencia de Lumina Óptica</p>
             
-            <a href="tel:+51974736558" 
+            <a href="tel:+51944246946" 
                class="inline-flex items-center gap-6 bg-white text-zinc-900 text-4xl font-bold px-16 py-10 rounded-3xl hover:bg-sky-400 hover:text-white transition-all">
                 <i class="fa-solid fa-phone"></i>
                 <div>+51 974 736 558</div>
@@ -133,55 +120,25 @@
 
     <script>
         const products = [
-            { 
-                name: "Lentes con Filtro Azul", 
-                price: "S/ 189", 
-                desc: "Protección avanzada contra luz azul de pantallas.", 
-                img: "https://picsum.photos/id/1015/600/400" 
-            },
-            { 
-                name: "Lentes de Contacto", 
-                price: "Desde S/ 89", 
-                desc: "Lentes de contacto cómodos y de alta oxigenación.", 
-                img: "https://picsum.photos/id/201/600/400" 
-            },
-            { 
-                name: "Lentes Polarizados", 
-                price: "S/ 249", 
-                desc: "Máxima protección UV y reducción de reflejos.", 
-                img: "https://picsum.photos/id/106/600/400" 
-            },
-            { 
-                name: "Examen de la Vista", 
-                price: "S/ 120", 
-                desc: "Evaluación completa con tecnología moderna.", 
-                img: "https://picsum.photos/id/1077/600/400" 
-            },
-            { 
-                name: "Estuche para Lentes", 
-                price: "S/ 65", 
-                desc: "Estuches rígidos y elegantes para proteger tus lentes.", 
-                img: "https://picsum.photos/id/201/600/400" 
-            },
-            { 
-                name: "Paños de Microfibra", 
-                price: "S/ 25", 
-                desc: "Limpieza profesional sin rayones.", 
-                img: "https://picsum.photos/id/133/600/400" 
-            }
+            { name: "Lentes con Filtro Azul", price: "S/ 189", desc: "Protección avanzada contra luz azul de pantallas.", img: "https://saludconlupa.com/media/images/Anteojos_con_filtro_de_luz_azul.width-1920.jpg" },
+            { name: "Lentes de Contacto", price: "Desde S/ 89", desc: "Lentes de contacto cómodos y de alta oxigenación.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsIrbsVdzWc0jA0Bjfehi-OfNLXxPZGnSM3CAy92LiFoJKBXD3boKZSSw&s=10" },
+            { name: "Lentes Polarizados", price: "S/ 249", desc: "Máxima protección UV y reducción de reflejos.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbI-aywVcOF59uHwtOb9MSX13lRNB-WQJODA98yNw6Bg&s=10" },
+            { name: "Examen de la Vista", price: "S/ 120", desc: "Evaluación completa con tecnología moderna.", img: "https://oftalmologiadviu.com/wp-content/uploads/2025/12/Diferencia-entre-examen-visual-y-consulta-oftalmologica-2-1024x571.webp" },
+            { name: "Estuche para Lentes", price: "S/ 65", desc: "Estuches rígidos y elegantes para proteger tus lentes.", img: "https://oakley.pe/cdn/shop/files/07-025_1_ba84f278-bf42-446e-abb2-00aee569ea23.png?v=1752712871&width=1080" },
+            { name: "Paños de Microfibra", price: "S/ 25", desc: "Limpieza profesional sin rayones.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToOZFmzPKbGKoTsySsuAprmLu5LCx0WIYwNI6rvcK7eQ&s=10" },
+            { name: "Spray Antiempañante", price: "S/ 45", desc: "Evita que tus lentes se empañen.", img: "https://media.falabella.com/falabellaPE/151780708_01/w=1500,h=1500,fit=cover" },
+            { name: "Líquido de Limpieza", price: "S/ 35", desc: "Solución especial para eliminar grasa y suciedad.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqYcCv5H8G87Uc9JNSxJiOaDvx3tnGowciPSOXEFxKmalCAwJkfXR9GZNb&s=10" }
         ];
 
         function renderProducts() {
             const container = document.getElementById('products-grid');
             container.innerHTML = '';
-
             products.forEach(product => {
                 const card = document.createElement('div');
                 card.className = "product-card bg-white border border-zinc-100 rounded-3xl overflow-hidden cursor-pointer h-full flex flex-col";
-                
                 card.innerHTML = `
                     <div class="h-64 overflow-hidden">
-                        <img src="${product.img}" class="product-img w-full h-full object-cover" alt="${product.name}" loading="lazy">
+                        <img src="${product.img}" class="product-img w-full h-full object-cover" alt="${product.name}">
                     </div>
                     <div class="p-8 flex-1 flex flex-col">
                         <h3 class="font-semibold text-2xl mb-2">${product.name}</h3>
@@ -193,16 +150,11 @@
                         </button>
                     </div>
                 `;
-
-                card.addEventListener('click', () => {
-                    document.getElementById('contacto').scrollIntoView({ behavior: 'smooth' });
-                });
-
+                card.addEventListener('click', () => document.getElementById('contacto').scrollIntoView({ behavior: 'smooth' }));
                 container.appendChild(card);
             });
         }
 
-        // Renderizar productos al cargar la página
         window.onload = renderProducts;
     </script>
 </body>
